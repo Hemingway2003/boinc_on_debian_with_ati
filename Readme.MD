@@ -38,7 +38,8 @@ to disable the boinc official startup
 ## Enable your start-up
 1. Basic prepare work
 
-1.1 Firstly you need to choice your `boinc work directory`, 
+1.1 Firstly you need to choice your `boinc work directory`  
+
 the default directory is `/var/lib/boinc-client`(If you use `ls -all` at `/var/lib` you will find a link of `/var/lib/boinc-client` named `boinc`), and you can use this but I choice a home directory named `boinc` at `/home/boinc`:
 ```
 sudo mkdir /home/boinc
